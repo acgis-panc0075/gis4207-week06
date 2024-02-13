@@ -1,0 +1,23 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "batch_clipper.py",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/DhruveshP_AlbertM/batch_clipper.py",
+            "args": ["C://acgis//gis4207_prog//data//BatchClipData//TargetData", 
+            "C://acgis//gis4207_prog//data//BatchClipData//Sites", 
+            "C://acgis//gis4207_prog//data//BatchClipData//Output"],
+            "console": "integratedTerminal",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}"
+            },
+            "cwd": "${workspaceFolder}",
+            "stopOnEntry": false
+        }
+    ]
+}
