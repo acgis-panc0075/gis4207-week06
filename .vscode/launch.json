@@ -18,6 +18,23 @@
             },
             "cwd": "${workspaceFolder}",
             "stopOnEntry": false
-        }
+        },
+
+        {
+            "name": "data_prep.py",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/DhruveshP_AlbertM/data_prep.py",
+            "args": ["C://acgis//gis4207_prog//data//surrey", 
+            "C://acgis//gis4207_prog//data//surrey//out.gdb", 
+            "UTMZone10Dataset"],
+            "console": "integratedTerminal",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}"
+            },
+            "cwd": "${workspaceFolder}",
+            "stopOnEntry": false
+        },
+
     ]
 }
